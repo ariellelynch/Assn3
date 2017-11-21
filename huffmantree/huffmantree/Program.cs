@@ -7,6 +7,7 @@ namespace huffmantree
     {
         public static void Main(string[] args)
         {
+            
         }
     }
 }

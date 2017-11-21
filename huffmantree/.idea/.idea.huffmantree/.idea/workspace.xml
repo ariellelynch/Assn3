@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="" />
+    <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/Encoder.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/Node.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/PriorityQueue.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/Test.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.huffmantree/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Program.cs" afterPath="$PROJECT_DIR$/huffmantree/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/huffmantree.csproj" afterPath="$PROJECT_DIR$/huffmantree/huffmantree.csproj" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +20,145 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PriorityQueue.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huffmantree/PriorityQueue.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <marker date="1511235961540" expanded="true" signature="21:5512" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="34:125" ph="..." />
+                <marker date="1511235961540" expanded="true" signature="165:366" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="448:666" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="727:5510" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="1027:1162" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="1320:1982" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="1400:1971" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="1571:1854" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="2056:2261" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="2102:2250" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="2411:3455" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="2553:3444" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="3045:3330" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="3526:3845" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="3564:3834" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="3596:3693" ph="/* Remove item with highest priority (root) and ... */" />
+                <marker date="1511235961540" expanded="true" signature="3908:4114" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="3946:4049" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="4126:4224" ph="/* Create a binary heap ... */" />
+                <marker date="1511235961540" expanded="true" signature="4295:4447" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="4372:4436" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="4583:5158" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="4773:4845" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="5049:5147" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="5228:5273" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="5339:5392" ph="{...}" />
+                <marker date="1511235961540" expanded="true" signature="5456:5504" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding>
+                <marker date="1511238836448" expanded="false" signature="6:47" ph="..." />
+                <marker date="1511238836448" expanded="true" signature="70:193" ph="{...}" />
+                <marker date="1511238836448" expanded="true" signature="99:191" ph="{...}" />
+                <marker date="1511238836448" expanded="true" signature="152:185" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huffmantree/Node.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+              <folding>
+                <marker date="1511237404848" expanded="true" signature="36:1553" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="75:1551" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="405:531" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="580:781" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="860:1074" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="1116:1536" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="1262:1316" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="1356:1409" ph="{...}" />
+                <marker date="1511237404848" expanded="true" signature="1448:1501" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Encoder.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1511238190396" expanded="true" signature="21:1183" ph="{...}" />
+                <marker date="1511238190396" expanded="true" signature="48:1181" ph="{...}" />
+                <marker date="1511238190396" expanded="true" signature="241:459" ph="/* TODO: need two dictionaries, one for finding frequency and another for holding the character codes, maybe anot ... */" />
+                <marker date="1511238190396" expanded="true" signature="537:665" ph="{...}" />
+                <marker date="1511238190396" expanded="true" signature="560:655" ph="/* default ctor for encoder ... */" />
+                <marker date="1511238190396" expanded="true" signature="812:891" ph="{...}" />
+                <marker date="1511238190396" expanded="true" signature="923:1017" ph="{...}" />
+                <marker date="1511238190396" expanded="true" signature="1046:1174" ph="{...}" />
+                <marker date="1511238190396" expanded="true" signature="1069:1164" ph="/* prints encoded text ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/huffmantree/Test.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="86" lean-forward="false" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+              <folding>
+                <marker date="1511238803148" expanded="true" signature="21:863" ph="{...}" />
+                <marker date="1511238803148" expanded="true" signature="45:861" ph="{...}" />
+                <marker date="1511238803148" expanded="true" signature="90:149" ph="{...}" />
+                <marker date="1511238803148" expanded="true" signature="186:242" ph="{...}" />
+                <marker date="1511238803148" expanded="true" signature="288:405" ph="{...}" />
+                <marker date="1511238803148" expanded="true" signature="451:630" ph="{...}" />
+                <marker date="1511238803148" expanded="true" signature="474:607" ph="/* tests helper method that builds dictionary of codes for encoder ... */" />
+                <marker date="1511238803148" expanded="true" signature="665:772" ph="{...}" />
+                <marker date="1511238803148" expanded="true" signature="807:855" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/huffmantree/PriorityQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/huffmantree/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/huffmantree/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/huffmantree/Encoder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/huffmantree/Test.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/huffmantree/PriorityQueue.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Node.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Encoder.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Program.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Test.cs" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -17,9 +166,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1922" />
-    <option name="height" value="1041" />
+    <option name="width" value="1914" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -36,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -45,7 +195,11 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="huffmantree (loading...)" />
+              <option name="myItemId" value="huffmantree (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huffmantree" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -53,6 +207,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -83,6 +238,48 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="PROJECT_PATH" value="" />
       <option name="PROJECT_KIND" value="None" />
@@ -110,34 +307,45 @@
       <option name="presentableId" value="Default" />
       <updated>1511234493302</updated>
       <workItem from="1511234496958" duration="3000" />
+      <workItem from="1511234828244" duration="4247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3000" />
+    <option name="totallyTimeSpent" value="4250000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1041" extended-state="6" />
+    <frame x="0" y="0" width="1914" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -150,5 +358,111 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/huffmantree/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="86" lean-forward="false" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+          <folding>
+            <marker date="1511238803148" expanded="true" signature="21:863" ph="{...}" />
+            <marker date="1511238803148" expanded="true" signature="45:861" ph="{...}" />
+            <marker date="1511238803148" expanded="true" signature="90:149" ph="{...}" />
+            <marker date="1511238803148" expanded="true" signature="186:242" ph="{...}" />
+            <marker date="1511238803148" expanded="true" signature="288:405" ph="{...}" />
+            <marker date="1511238803148" expanded="true" signature="451:630" ph="{...}" />
+            <marker date="1511238803148" expanded="true" signature="474:607" ph="/* tests helper method that builds dictionary of codes for encoder ... */" />
+            <marker date="1511238803148" expanded="true" signature="665:772" ph="{...}" />
+            <marker date="1511238803148" expanded="true" signature="807:855" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1511238836448" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511238836448" expanded="true" signature="70:193" ph="{...}" />
+            <marker date="1511238836448" expanded="true" signature="99:191" ph="{...}" />
+            <marker date="1511238836448" expanded="true" signature="152:185" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffmantree/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding>
+            <marker date="1511237404848" expanded="true" signature="36:1553" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="75:1551" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="405:531" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="580:781" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="860:1074" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1116:1536" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1262:1316" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1356:1409" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1448:1501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffmantree/PriorityQueue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <marker date="1511235961540" expanded="true" signature="21:5512" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="34:125" ph="..." />
+            <marker date="1511235961540" expanded="true" signature="165:366" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="448:666" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="727:5510" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="1027:1162" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="1320:1982" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="1400:1971" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="1571:1854" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="2056:2261" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="2102:2250" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="2411:3455" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="2553:3444" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="3045:3330" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="3526:3845" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="3564:3834" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="3596:3693" ph="/* Remove item with highest priority (root) and ... */" />
+            <marker date="1511235961540" expanded="true" signature="3908:4114" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="3946:4049" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="4126:4224" ph="/* Create a binary heap ... */" />
+            <marker date="1511235961540" expanded="true" signature="4295:4447" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="4372:4436" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="4583:5158" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="4773:4845" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="5049:5147" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="5228:5273" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="5339:5392" ph="{...}" />
+            <marker date="1511235961540" expanded="true" signature="5456:5504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1511238190396" expanded="true" signature="21:1183" ph="{...}" />
+            <marker date="1511238190396" expanded="true" signature="48:1181" ph="{...}" />
+            <marker date="1511238190396" expanded="true" signature="241:459" ph="/* TODO: need two dictionaries, one for finding frequency and another for holding the character codes, maybe anot ... */" />
+            <marker date="1511238190396" expanded="true" signature="537:665" ph="{...}" />
+            <marker date="1511238190396" expanded="true" signature="560:655" ph="/* default ctor for encoder ... */" />
+            <marker date="1511238190396" expanded="true" signature="812:891" ph="{...}" />
+            <marker date="1511238190396" expanded="true" signature="923:1017" ph="{...}" />
+            <marker date="1511238190396" expanded="true" signature="1046:1174" ph="{...}" />
+            <marker date="1511238190396" expanded="true" signature="1069:1164" ph="/* prints encoded text ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
