@@ -13,6 +13,8 @@ namespace huffmantree
 
         public Node LeftNode;
 
+        public string Address { get; set; }
+
         //getters and setters
 
         public Node()
@@ -21,6 +23,7 @@ namespace huffmantree
             
             RightNode = null;
             LeftNode = null;
+            Address = "";
 
         }
 
@@ -44,7 +47,7 @@ namespace huffmantree
 
         public int CompareTo(object obj)
         {
-            int res;
+            int res = 0;
             //cast input to node type
             Node c = (Node) obj;
             if (c.Frequency<this.Frequency)
@@ -60,6 +63,11 @@ namespace huffmantree
 
             return res;
         }
-        
+
+        public void TraverseTree()
+        {
+            LeftNode.Address += "0";
+            RightNode.Address += "1";
+        }
     }
 }

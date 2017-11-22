@@ -88,8 +88,17 @@
 
         public string Encode()
         {
-            //uses plaintext attr and returns encoded text
+            string encodedStr = "";
+
             FindFrequencies();
+            // this.Plaintext;
+            // this.FrequencyQueue;
+
+
+            // encodedStr =
+
+            return encodedStr;
+            //uses plaintext attr and returns encoded text
             
         }
 
