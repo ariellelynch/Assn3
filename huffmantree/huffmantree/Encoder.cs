@@ -113,20 +113,17 @@
 
         public string Encode()
         {
-            string encodedStr = "";
-
             FindFrequencies();
             GenerateHuffmanTree();
             TraverseTree(HuffmanTree);
             // this.Plaintext;
             // this.FrequencyQueue;
 
+            // this.EncodedText += TraverseAddresses();
+            // this is done after the entire tree is generated
 
-            // encodedStr =
-
-            return encodedStr;
+            return this.EncodedText;
             //uses plaintext attr and returns encoded text
-            
         }
 
         public string Decode(Node tree)
