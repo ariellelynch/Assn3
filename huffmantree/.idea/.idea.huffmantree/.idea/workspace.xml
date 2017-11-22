@@ -4,7 +4,6 @@
     <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Encoder.cs" afterPath="$PROJECT_DIR$/huffmantree/Encoder.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Node.cs" afterPath="$PROJECT_DIR$/huffmantree/Node.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,25 +92,25 @@
       <file leaf-file-name="Encoder.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+            <state relative-caret-position="660">
+              <caret line="65" column="59" lean-forward="false" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
               <folding>
-                <marker date="1511389433028" expanded="true" signature="21:3449" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="86:3447" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="574:1336" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="597:797" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
-                <marker date="1511389433028" expanded="true" signature="839:1326" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="1007:1142" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="1187:1312" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="1380:2322" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="1543:1726" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="1824:2299" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="2348:2887" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="2371:2520" ph="/* default ctor for encoder ... */" />
-                <marker date="1511389433028" expanded="true" signature="3034:3157" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="3189:3283" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="3312:3440" ph="{...}" />
-                <marker date="1511389433028" expanded="true" signature="3335:3430" ph="/* prints encoded text ... */" />
+                <marker date="1511389738040" expanded="true" signature="21:3560" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="86:3558" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="574:1336" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="597:797" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
+                <marker date="1511389738040" expanded="true" signature="839:1326" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="1007:1142" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="1187:1312" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="1380:2433" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="1543:1726" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="1824:2299" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="2459:2998" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="2482:2631" ph="/* default ctor for encoder ... */" />
+                <marker date="1511389738040" expanded="true" signature="3145:3268" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="3300:3394" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="3423:3551" ph="{...}" />
+                <marker date="1511389738040" expanded="true" signature="3446:3541" ph="/* prints encoded text ... */" />
               </folding>
             </state>
           </provider>
@@ -308,7 +307,7 @@
       <option name="presentableId" value="Default" />
       <updated>1511234493302</updated>
       <workItem from="1511234496958" duration="3000" />
-      <workItem from="1511234828244" duration="10038000" />
+      <workItem from="1511234828244" duration="10320000" />
     </task>
     <task id="LOCAL-00001" summary="added most of classes we'll need, not all helper methods filled out in encoder. Also still need to implement hash tables for holding frequency values/codes for chars">
       <created>1511239164633</created>
@@ -324,11 +323,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511388434337</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added generate huffman tree method, made node attributes public">
+      <created>1511389475734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511389475734</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10041000" />
+    <option name="totallyTimeSpent" value="10323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +380,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added most of classes we'll need, not all helper methods filled out in encoder. Also still need to implement hash tables for holding frequency values/codes for chars" />
     <MESSAGE value="added findfrequencies method and generatehuffmantree method, added dictionary attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added findfrequencies method and generatehuffmantree method, added dictionary attributes" />
+    <MESSAGE value="added generate huffman tree method, made node attributes public" />
+    <option name="LAST_COMMIT_MESSAGE" value="added generate huffman tree method, made node attributes public" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -469,25 +476,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        <state relative-caret-position="660">
+          <caret line="65" column="59" lean-forward="false" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
           <folding>
-            <marker date="1511389433028" expanded="true" signature="21:3449" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="86:3447" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="574:1336" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="597:797" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
-            <marker date="1511389433028" expanded="true" signature="839:1326" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="1007:1142" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="1187:1312" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="1380:2322" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="1543:1726" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="1824:2299" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="2348:2887" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="2371:2520" ph="/* default ctor for encoder ... */" />
-            <marker date="1511389433028" expanded="true" signature="3034:3157" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="3189:3283" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="3312:3440" ph="{...}" />
-            <marker date="1511389433028" expanded="true" signature="3335:3430" ph="/* prints encoded text ... */" />
+            <marker date="1511389738040" expanded="true" signature="21:3560" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="86:3558" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="574:1336" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="597:797" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
+            <marker date="1511389738040" expanded="true" signature="839:1326" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="1007:1142" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="1187:1312" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="1380:2433" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="1543:1726" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="1824:2299" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="2459:2998" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="2482:2631" ph="/* default ctor for encoder ... */" />
+            <marker date="1511389738040" expanded="true" signature="3145:3268" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="3300:3394" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="3423:3551" ph="{...}" />
+            <marker date="1511389738040" expanded="true" signature="3446:3541" ph="/* prints encoded text ... */" />
           </folding>
         </state>
       </provider>

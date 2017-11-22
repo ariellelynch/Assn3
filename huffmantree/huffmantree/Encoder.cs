@@ -40,7 +40,7 @@
             }
         }
 
-        private void generateHuffmanTree()
+        private void GenerateHuffmanTree()
         {
             //creates nodes for all characters and adds them into PQ, builds huffman tree
             foreach (KeyValuePair<char, int> c in frequencies)
@@ -63,6 +63,9 @@
                 FrequencyQueue.Add(parent);
             }
             
+            //assigns generated tree to HhuffmanTree attr. 
+            HuffmanTree = FrequencyQueue.Front();
+
         }
 
         public Encoder()
