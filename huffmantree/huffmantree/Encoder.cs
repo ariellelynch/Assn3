@@ -51,6 +51,17 @@
             }
             
             //now generate huffman tree
+            while (FrequencyQueue.Size()!=1)
+            {
+                //remove two lowest frequency nodes and generate parent node as sum of child frequencies
+                Node parent = new Node('*',0);
+                parent.LeftNode = FrequencyQueue.Front();
+                FrequencyQueue.Remove();
+                parent.RightNode = FrequencyQueue.Front();
+                FrequencyQueue.Remove();
+                //add new parent to frequency queue
+                FrequencyQueue.Add(parent);
+            }
             
         }
 

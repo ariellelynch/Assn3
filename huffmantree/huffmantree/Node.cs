@@ -5,13 +5,15 @@ namespace huffmantree
     public class Node : IComparable 
     {
         //node class for binary tree, also serves as binary tree class (includes getters/setters for child values)
-        private char Letter { get; set; }
-        
-        private int Frequency { get; set; }
+        public char Letter;
 
-        private Node RightNode { get; set; }
+        public int Frequency;
 
-        private Node LeftNode { get; set; }
+        public Node RightNode;
+
+        public Node LeftNode;
+
+        //getters and setters
 
         public Node()
         {
