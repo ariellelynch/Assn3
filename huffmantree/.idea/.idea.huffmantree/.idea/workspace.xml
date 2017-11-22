@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/Encoder.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/Node.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/PriorityQueue.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huffmantree/Test.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.huffmantree/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/riderModule.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Program.cs" afterPath="$PROJECT_DIR$/huffmantree/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/huffmantree.csproj" afterPath="$PROJECT_DIR$/huffmantree/huffmantree.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Encoder.cs" afterPath="$PROJECT_DIR$/huffmantree/Encoder.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +72,8 @@
       <file leaf-file-name="Node.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huffmantree/Node.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
                 <marker date="1511237404848" expanded="true" signature="36:1553" ph="{...}" />
                 <marker date="1511237404848" expanded="true" signature="75:1551" ph="{...}" />
@@ -99,18 +92,24 @@
       <file leaf-file-name="Encoder.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
               <folding>
-                <marker date="1511238190396" expanded="true" signature="21:1183" ph="{...}" />
-                <marker date="1511238190396" expanded="true" signature="48:1181" ph="{...}" />
-                <marker date="1511238190396" expanded="true" signature="241:459" ph="/* TODO: need two dictionaries, one for finding frequency and another for holding the character codes, maybe anot ... */" />
-                <marker date="1511238190396" expanded="true" signature="537:665" ph="{...}" />
-                <marker date="1511238190396" expanded="true" signature="560:655" ph="/* default ctor for encoder ... */" />
-                <marker date="1511238190396" expanded="true" signature="812:891" ph="{...}" />
-                <marker date="1511238190396" expanded="true" signature="923:1017" ph="{...}" />
-                <marker date="1511238190396" expanded="true" signature="1046:1174" ph="{...}" />
-                <marker date="1511238190396" expanded="true" signature="1069:1164" ph="/* prints encoded text ... */" />
+                <marker date="1511388363556" expanded="true" signature="21:2929" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="86:2927" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="574:1336" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="597:797" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
+                <marker date="1511388363556" expanded="true" signature="839:1326" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="1007:1142" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="1187:1312" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="1380:1802" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="1543:1726" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="1828:2367" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="1851:2000" ph="/* default ctor for encoder ... */" />
+                <marker date="1511388363556" expanded="true" signature="2514:2637" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="2669:2763" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="2792:2920" ph="{...}" />
+                <marker date="1511388363556" expanded="true" signature="2815:2910" ph="/* prints encoded text ... */" />
               </folding>
             </state>
           </provider>
@@ -153,9 +152,9 @@
       <list>
         <option value="$PROJECT_DIR$/huffmantree/PriorityQueue.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Node.cs" />
-        <option value="$PROJECT_DIR$/huffmantree/Encoder.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Program.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Test.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Encoder.cs" />
       </list>
     </option>
   </component>
@@ -307,12 +306,20 @@
       <option name="presentableId" value="Default" />
       <updated>1511234493302</updated>
       <workItem from="1511234496958" duration="3000" />
-      <workItem from="1511234828244" duration="4247000" />
+      <workItem from="1511234828244" duration="8988000" />
     </task>
+    <task id="LOCAL-00001" summary="added most of classes we'll need, not all helper methods filled out in encoder. Also still need to implement hash tables for holding frequency values/codes for chars">
+      <created>1511239164633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511239164633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4250000" />
+    <option name="totallyTimeSpent" value="8991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,11 +362,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added most of classes we'll need, not all helper methods filled out in encoder. Also still need to implement hash tables for holding frequency values/codes for chars" />
+    <option name="LAST_COMMIT_MESSAGE" value="added most of classes we'll need, not all helper methods filled out in encoder. Also still need to implement hash tables for holding frequency values/codes for chars" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1511238836448" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511238836448" expanded="true" signature="70:193" ph="{...}" />
+            <marker date="1511238836448" expanded="true" signature="99:191" ph="{...}" />
+            <marker date="1511238836448" expanded="true" signature="152:185" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/huffmantree/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -374,37 +398,6 @@
             <marker date="1511238803148" expanded="true" signature="474:607" ph="/* tests helper method that builds dictionary of codes for encoder ... */" />
             <marker date="1511238803148" expanded="true" signature="665:772" ph="{...}" />
             <marker date="1511238803148" expanded="true" signature="807:855" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <marker date="1511238836448" expanded="false" signature="6:47" ph="..." />
-            <marker date="1511238836448" expanded="true" signature="70:193" ph="{...}" />
-            <marker date="1511238836448" expanded="true" signature="99:191" ph="{...}" />
-            <marker date="1511238836448" expanded="true" signature="152:185" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huffmantree/Node.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <marker date="1511237404848" expanded="true" signature="36:1553" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="75:1551" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="405:531" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="580:781" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="860:1074" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="1116:1536" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="1262:1316" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="1356:1409" ph="{...}" />
-            <marker date="1511237404848" expanded="true" signature="1448:1501" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -446,20 +439,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/huffmantree/Node.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1511237404848" expanded="true" signature="36:1553" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="75:1551" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="405:531" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="580:781" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="860:1074" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1116:1536" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1262:1316" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1356:1409" ph="{...}" />
+            <marker date="1511237404848" expanded="true" signature="1448:1501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
           <folding>
-            <marker date="1511238190396" expanded="true" signature="21:1183" ph="{...}" />
-            <marker date="1511238190396" expanded="true" signature="48:1181" ph="{...}" />
-            <marker date="1511238190396" expanded="true" signature="241:459" ph="/* TODO: need two dictionaries, one for finding frequency and another for holding the character codes, maybe anot ... */" />
-            <marker date="1511238190396" expanded="true" signature="537:665" ph="{...}" />
-            <marker date="1511238190396" expanded="true" signature="560:655" ph="/* default ctor for encoder ... */" />
-            <marker date="1511238190396" expanded="true" signature="812:891" ph="{...}" />
-            <marker date="1511238190396" expanded="true" signature="923:1017" ph="{...}" />
-            <marker date="1511238190396" expanded="true" signature="1046:1174" ph="{...}" />
-            <marker date="1511238190396" expanded="true" signature="1069:1164" ph="/* prints encoded text ... */" />
+            <marker date="1511388363556" expanded="true" signature="21:2929" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="86:2927" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="574:1336" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="597:797" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
+            <marker date="1511388363556" expanded="true" signature="839:1326" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="1007:1142" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="1187:1312" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="1380:1802" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="1543:1726" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="1828:2367" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="1851:2000" ph="/* default ctor for encoder ... */" />
+            <marker date="1511388363556" expanded="true" signature="2514:2637" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="2669:2763" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="2792:2920" ph="{...}" />
+            <marker date="1511388363556" expanded="true" signature="2815:2910" ph="/* prints encoded text ... */" />
           </folding>
         </state>
       </provider>
