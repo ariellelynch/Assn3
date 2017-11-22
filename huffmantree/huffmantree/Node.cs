@@ -13,7 +13,7 @@ namespace huffmantree
 
         public Node LeftNode;
 
-        public string Address { get; set; }
+        public string Address;
 
         //getters and setters
 
@@ -23,6 +23,7 @@ namespace huffmantree
             
             RightNode = null;
             LeftNode = null;
+            Frequency = 0;
             Address = "";
 
         }
@@ -62,12 +63,6 @@ namespace huffmantree
             }
 
             return res;
-        }
-
-        public void TraverseTree()
-        {
-            LeftNode.Address += "0";
-            RightNode.Address += "1";
         }
     }
 }

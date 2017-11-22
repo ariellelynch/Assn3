@@ -12,9 +12,8 @@
 
         private Dictionary<char, int> frequencies;
 
-        private Dictionary<char, string> codesForChars;
 
-        private Dictionary<string, char> charsForCodes;
+        private Dictionary<char, string> codesForChars;
         
         //note: P Q contains node/BT elements
         private PriorityQueue<Node> FrequencyQueue;
@@ -56,8 +55,10 @@
                 //remove two lowest frequency nodes and generate parent node as sum of child frequencies
                 Node parent = new Node('*',0);
                 parent.LeftNode = FrequencyQueue.Front();
+                parent.Frequency += parent.LeftNode.Frequency;
                 FrequencyQueue.Remove();
                 parent.RightNode = FrequencyQueue.Front();
+                parent.Frequency += parent.RightNode.Frequency;
                 FrequencyQueue.Remove();
                 //add new parent to frequency queue
                 FrequencyQueue.Add(parent);
@@ -66,6 +67,31 @@
             //assigns generated tree to HhuffmanTree attr. 
             HuffmanTree = FrequencyQueue.Front();
 
+        }
+        
+        public int TraverseTree(Node p)
+        {
+            if (p.LeftNode!=null&&p.RightNode!=null)
+            {
+                p.LeftNode.Address = p.Address+"0";
+                p.RightNode.Address += p.Address+"1";
+                return TraverseTree(p.RightNode) + TraverseTree(p.LeftNode);
+            } else if (p.LeftNode != null)
+            {
+                p.LeftNode.Address = p.Address + "0";
+                return TraverseTree(p.LeftNode);
+
+            } else if (p.RightNode != null)
+            {
+                p.RightNode.Address = p.Address + "1";
+            }
+            else
+            {
+                //base case, leaf node
+                //add address to dict
+                codesForChars.Add(p.Letter, p.Address);
+                return 0;
+            }
         }
 
         public Encoder()
@@ -78,7 +104,6 @@
             EncodedText = "";
             frequencies = new Dictionary<char, int>();
             codesForChars = new Dictionary<char, string>();
-            charsForCodes = new Dictionary<string, char>();
             
             //don't need to initialize huffman tree because will just contain ref to node initialized later in encode method
             
@@ -91,6 +116,8 @@
             string encodedStr = "";
 
             FindFrequencies();
+            GenerateHuffmanTree();
+            TraverseTree(HuffmanTree);
             // this.Plaintext;
             // this.FrequencyQueue;
 
@@ -102,7 +129,7 @@
             
         }
 
-        public string Decode()
+        public string Decode(Node tree)
         {
             //decodes the encoded text in the encoder, mostly for testing
         }
