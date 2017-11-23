@@ -1,4 +1,6 @@
-﻿namespace huffmantree
+﻿using System;
+
+namespace huffmantree
 {
     using System.Collections.Generic;
     public class Encoder
@@ -131,7 +133,6 @@
         public string Decode()
         {
             //decodes the encoded text in the encoder, mostly for testing
-
             Node NodeCurrent = HuffmanTree;
             // store the current node as we go through the tree to find the value
             foreach (char c in this.EncodedText)
@@ -162,12 +163,14 @@
                     // go right if it's a 1
                 }
             }
+            DecodedText += NodeCurrent.Letter;
             return this.DecodedText;
         }
 
-        public void print()
+        public void Print()
         {
             //prints encoded text
+            Console.WriteLine(this.EncodedText);
 
             //check for null encoded val and throw exception
         }
