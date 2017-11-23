@@ -1,7 +1,9 @@
-﻿namespace huffmantree
+﻿using System;
+
+namespace huffmantree
 {
     using System.Collections.Generic;
-    using System;
+
     public class Encoder
     {
         //used for encoding text selections using huffman tree
@@ -52,10 +54,10 @@
             }
 
             //now generate huffman tree
-            while (FrequencyQueue.Size()!=1)
+            while (FrequencyQueue.Size() != 1)
             {
                 //remove two lowest frequency nodes and generate parent node as sum of child frequencies
-                Node parent = new Node('*',0);
+                Node parent = new Node('*', 0);
                 parent.LeftNode = FrequencyQueue.Front();
                 parent.Frequency += parent.LeftNode.Frequency;
                 FrequencyQueue.Remove();
@@ -73,17 +75,19 @@
 
         public int TraverseTree(Node p)
         {
-            if (p.LeftNode!=null&&p.RightNode!=null)
+            if (p.LeftNode != null && p.RightNode != null)
             {
-                p.LeftNode.Address = p.Address+"0";
-                p.RightNode.Address += p.Address+"1";
+                p.LeftNode.Address = p.Address + "0";
+                p.RightNode.Address += p.Address + "1";
                 return TraverseTree(p.RightNode) + TraverseTree(p.LeftNode);
-            } else if (p.LeftNode != null)
+            }
+            else if (p.LeftNode != null)
             {
                 p.LeftNode.Address = p.Address + "0";
                 return TraverseTree(p.LeftNode);
 
-            } else if (p.RightNode != null)
+            }
+            else if (p.RightNode != null)
             {
                 p.RightNode.Address = p.Address + "1";
                 return TraverseTree(p.RightNode);
@@ -136,7 +140,6 @@
         public string Decode()
         {
             //decodes the encoded text in the encoder, mostly for testing
-
             Node NodeCurrent = HuffmanTree;
             // store the current node as we go through the tree to find the value
             foreach (char c in this.EncodedText)
@@ -149,42 +152,34 @@
                         this.DecodedText += NodeCurrent.Letter;
                         // append the char we found
                         NodeCurrent = HuffmanTree;
-						// go back to the top of the tree
-					}
+                        // go back to the top of the tree
+                    }
                     NodeCurrent = NodeCurrent.LeftNode;
                     // go left if it's a 0
                 }
                 else if (c == '1')
                 {
-					if (NodeCurrent.RightNode == null)
-					{
-						this.DecodedText += NodeCurrent.Letter;
-						// append the char we found
-						NodeCurrent = HuffmanTree;
-						// go back to the top of the tree
-					}
+                    if (NodeCurrent.RightNode == null)
+                    {
+                        this.DecodedText += NodeCurrent.Letter;
+                        // append the char we found
+                        NodeCurrent = HuffmanTree;
+                        // go back to the top of the tree
+                    }
                     NodeCurrent = NodeCurrent.RightNode;
                     // go right if it's a 1
                 }
             }
             //add node current to string 
+            DecodedText += NodeCurrent.Letter;
             return this.DecodedText;
         }
 
-        public void print()
+        public void Print()
         {
             //prints encoded text
+            Console.WriteLine(this.EncodedText);
 
-            //check for null encoded val and throw exception
-            if (EncodedText != "")
-            {
-                Console.Write("Encoded text: ");
-                Console.Write(EncodedText);
-            }
-            else
-            {
-                Console.Write("No encoded text");
-            }
         }
 
     }
