@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="added main function stuff">
+    <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Program.cs" afterPath="$PROJECT_DIR$/huffmantree/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,16 +54,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="210">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding>
-                <marker date="1511473515146" expanded="false" signature="6:47" ph="..." />
-                <marker date="1511473515146" expanded="true" signature="70:453" ph="{...}" />
-                <marker date="1511473515146" expanded="true" signature="99:451" ph="{...}" />
-                <marker date="1511473515146" expanded="true" signature="152:445" ph="{...}" />
+                <marker date="1511473904922" expanded="false" signature="6:47" ph="..." />
+                <marker date="1511473904922" expanded="true" signature="70:558" ph="{...}" />
+                <marker date="1511473904922" expanded="true" signature="99:556" ph="{...}" />
+                <marker date="1511473904922" expanded="true" signature="152:550" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -88,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encoder.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Encoder.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="-975">
+              <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
               <folding>
                 <marker date="1511473677202" expanded="true" signature="36:6288" ph="{...}" />
                 <marker date="1511473677202" expanded="true" signature="102:6286" ph="{...}" />
@@ -159,8 +160,8 @@
         <option value="$PROJECT_DIR$/huffmantree/PriorityQueue.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Node.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Test.cs" />
-        <option value="$PROJECT_DIR$/huffmantree/Program.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Encoder.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Program.cs" />
       </list>
     </option>
   </component>
@@ -422,7 +423,7 @@
       <option name="presentableId" value="Default" />
       <updated>1511234493302</updated>
       <workItem from="1511234496958" duration="3000" />
-      <workItem from="1511234828244" duration="21458000" />
+      <workItem from="1511234828244" duration="21589000" />
     </task>
     <task id="LOCAL-00001" summary="added most of classes we'll need, not all helper methods filled out in encoder. Also still need to implement hash tables for holding frequency values/codes for chars">
       <created>1511239164633</created>
@@ -466,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511473538537</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added main function stuff">
+      <created>1511473779819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511473779819</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21461000" />
+    <option name="totallyTimeSpent" value="21592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,12 +491,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1914" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -595,23 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <marker date="1511473515146" expanded="false" signature="6:47" ph="..." />
-            <marker date="1511473515146" expanded="true" signature="70:453" ph="{...}" />
-            <marker date="1511473515146" expanded="true" signature="99:451" ph="{...}" />
-            <marker date="1511473515146" expanded="true" signature="152:445" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="-975">
+          <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           <folding>
             <marker date="1511473677202" expanded="true" signature="36:6288" ph="{...}" />
             <marker date="1511473677202" expanded="true" signature="102:6286" ph="{...}" />
@@ -640,6 +636,19 @@
             <marker date="1511473677202" expanded="true" signature="5535:5996" ph="{...}" />
             <marker date="1511473677202" expanded="true" signature="5608:5877" ph="{...}" />
             <marker date="1511473677202" expanded="true" signature="6175:6279" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <marker date="1511473904922" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511473904922" expanded="true" signature="70:558" ph="{...}" />
+            <marker date="1511473904922" expanded="true" signature="99:556" ph="{...}" />
+            <marker date="1511473904922" expanded="true" signature="152:550" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -12,6 +12,8 @@ namespace huffmantree
             Encoder newEncoder = new Encoder(inputString);
             Console.Write("Encoded string: ");
             Console.WriteLine(newEncoder.Encode());
+            Console.Write("The decoded text was: ");
+            Console.WriteLine(newEncoder.Decode());
         }
     }
 }
