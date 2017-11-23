@@ -1,0 +1,7 @@
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Release/huffmantree.exe
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Release/huffmantree.pdb
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Release/nunit.framework.dll
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Release/nunit.framework.xml
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Release/huffmantree.csproj.CoreCompileInputs.cache
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Release/huffmantree.exe
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Release/huffmantree.pdb

@@ -1,0 +1,8 @@
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/huffmantree.exe.mdb
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/huffmantree.pdb
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/huffmantree.exe
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/huffmantree.exe
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/huffmantree.exe.mdb
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/huffmantree.pdb
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/nunit.framework.dll

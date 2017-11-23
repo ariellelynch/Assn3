@@ -1,0 +1,8 @@
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/huffmantree.csprojResolveAssemblyReference.cache
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/huffmantree.csproj.CoreCompileInputs.cache
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/huffmantree.exe
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/huffmantree.pdb
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/nunit.framework.dll
+/home/sean/code/Assn3/huffmantree/huffmantree/bin/Debug/nunit.framework.xml
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/huffmantree.exe
+/home/sean/code/Assn3/huffmantree/huffmantree/obj/Debug/huffmantree.pdb
