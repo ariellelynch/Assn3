@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Sean Behan - 0599444
+ * Arielle Lynch - 0634310
+ * 
+ * Huffman Tree Program: 
+ * Generates a Huffman tree and shows what was stored inside it
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 
 namespace huffmantree
