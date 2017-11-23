@@ -1,6 +1,7 @@
 ﻿namespace huffmantree
 {
     using System.Collections.Generic;
+    using System;
     public class Encoder
     {
         //used for encoding text selections using huffman tree
@@ -113,6 +114,10 @@
 
         public string Encode()
         {
+            if (this.Plaintext == "")
+            {
+                return "";
+            }
             FindFrequencies();
             GenerateHuffmanTree();
             TraverseTree(HuffmanTree);
@@ -162,6 +167,7 @@
                     // go right if it's a 1
                 }
             }
+            //add node current to string 
             return this.DecodedText;
         }
 
@@ -170,6 +176,15 @@
             //prints encoded text
 
             //check for null encoded val and throw exception
+            if (EncodedText != "")
+            {
+                Console.Write("Encoded text: ");
+                Console.Write(EncodedText);
+            }
+            else
+            {
+                Console.Write("No encoded text");
+            }
         }
 
     }

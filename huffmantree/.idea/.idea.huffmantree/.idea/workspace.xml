@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="">
+    <list default="true" id="5fd32d9f-4f37-4d9b-84a2-5b8377ad0ab1" name="Default" comment="added huffmantree creation">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.huffmantree/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Encoder.cs" afterPath="$PROJECT_DIR$/huffmantree/Encoder.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Node.cs" afterPath="$PROJECT_DIR$/huffmantree/Node.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffmantree/Program.cs" afterPath="$PROJECT_DIR$/huffmantree/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,16 +55,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding>
-                <marker date="1511238836448" expanded="false" signature="6:47" ph="..." />
-                <marker date="1511238836448" expanded="true" signature="70:193" ph="{...}" />
-                <marker date="1511238836448" expanded="true" signature="99:191" ph="{...}" />
-                <marker date="1511238836448" expanded="true" signature="152:185" ph="{...}" />
+                <marker date="1511473515146" expanded="false" signature="6:47" ph="..." />
+                <marker date="1511473515146" expanded="true" signature="70:453" ph="{...}" />
+                <marker date="1511473515146" expanded="true" signature="99:451" ph="{...}" />
+                <marker date="1511473515146" expanded="true" signature="152:445" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,35 +90,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encoder.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Encoder.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="300">
+              <caret line="125" column="13" lean-forward="false" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
               <folding>
-                <marker date="1511392101140" expanded="true" signature="21:4631" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="86:4629" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="518:1280" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="541:741" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
-                <marker date="1511392101140" expanded="true" signature="783:1270" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="951:1086" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="1131:1256" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="1324:2504" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="1487:1670" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="1768:2370" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="2553:3315" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="2616:2827" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="2856:2988" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="3018:3101" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="3118:3305" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="3149:3209" ph="/* base case, leaf node ... */" />
-                <marker date="1511392101140" expanded="true" signature="3341:3820" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="3364:3513" ph="/* default ctor for encoder ... */" />
-                <marker date="1511392101140" expanded="true" signature="3967:4330" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="4132:4186" ph="/* this.Plaintext; ... */" />
-                <marker date="1511392101140" expanded="true" signature="4371:4465" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="4494:4622" ph="{...}" />
-                <marker date="1511392101140" expanded="true" signature="4517:4612" ph="/* prints encoded text ... */" />
+                <marker date="1511473410018" expanded="true" signature="21:6320" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="34:79" ph="..." />
+                <marker date="1511473410018" expanded="true" signature="104:6318" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="564:1314" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="587:775" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
+                <marker date="1511473410018" expanded="true" signature="817:1304" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="985:1120" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="1165:1290" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="1358:2512" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="1521:1703" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="1789:2391" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="2553:3304" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="2616:2827" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="2856:2988" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="3018:3151" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="3164:3220" ph="/* base case, leaf node ... */" />
+                <marker date="1511473410018" expanded="true" signature="3338:3854" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="3361:3456" ph="/* default ctor for encoder ... */" />
+                <marker date="1511473410018" expanded="true" signature="3993:4609" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="4041:4096" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="4249:4439" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="4641:5915" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="4901:5826" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="5008:5433" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="5080:5316" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="5468:5812" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="5526:5693" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="5944:6311" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="5967:6050" ph="/* prints encoded text ... */" />
+                <marker date="1511473410018" expanded="true" signature="6085:6206" ph="{...}" />
+                <marker date="1511473410018" expanded="true" signature="6223:6301" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -127,18 +135,13 @@
       <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huffmantree/Test.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="86" lean-forward="false" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+            <state relative-caret-position="375">
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
-                <marker date="1511238803148" expanded="true" signature="21:863" ph="{...}" />
-                <marker date="1511238803148" expanded="true" signature="45:861" ph="{...}" />
-                <marker date="1511238803148" expanded="true" signature="90:149" ph="{...}" />
-                <marker date="1511238803148" expanded="true" signature="186:242" ph="{...}" />
-                <marker date="1511238803148" expanded="true" signature="288:405" ph="{...}" />
-                <marker date="1511238803148" expanded="true" signature="451:630" ph="{...}" />
-                <marker date="1511238803148" expanded="true" signature="474:607" ph="/* tests helper method that builds dictionary of codes for encoder ... */" />
-                <marker date="1511238803148" expanded="true" signature="665:772" ph="{...}" />
-                <marker date="1511238803148" expanded="true" signature="807:855" ph="{...}" />
+                <marker date="1511472853226" expanded="true" signature="45:663" ph="{...}" />
+                <marker date="1511472853226" expanded="true" signature="87:661" ph="{...}" />
+                <marker date="1511472853226" expanded="true" signature="141:371" ph="{...}" />
+                <marker date="1511472853226" expanded="true" signature="420:655" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -161,10 +164,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/huffmantree/PriorityQueue.cs" />
-        <option value="$PROJECT_DIR$/huffmantree/Program.cs" />
-        <option value="$PROJECT_DIR$/huffmantree/Test.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Node.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Test.cs" />
         <option value="$PROJECT_DIR$/huffmantree/Encoder.cs" />
+        <option value="$PROJECT_DIR$/huffmantree/Program.cs" />
       </list>
     </option>
   </component>
@@ -236,8 +239,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/huffmantree/Encoder.cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/huffmantree/Node.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/huffmantree/Test.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/huffmantree/huffmantree.csproj</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -245,6 +248,30 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/huffmantree/packages.config</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/CHANGES.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/NOTICES.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/NUnit.3.9.0.nupkg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/monoandroid/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/monoandroid/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net20/NUnit.System.Linq.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net20/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net20/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net35/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net35/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net40/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net40/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net45/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/net45/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/netstandard1.3/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/netstandard1.3/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/netstandard1.6/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/netstandard1.6/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/uap/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/uap/nunit.framework.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/xamarin.ios/nunit.framework.dll</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/packages/NUnit.3.9.0/lib/xamarin.ios/nunit.framework.xml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -401,10 +428,10 @@
       <method />
     </configuration>
     <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
-      <option name="EXE_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/huffmantree/huffmantree.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/huffmantree/bin/Debug/huffmantree.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="USE_MONO" value="0" />
@@ -427,7 +454,7 @@
       <option name="presentableId" value="Default" />
       <updated>1511234493302</updated>
       <workItem from="1511234496958" duration="3000" />
-      <workItem from="1511234828244" duration="12683000" />
+      <workItem from="1511234828244" duration="21205000" />
     </task>
     <task id="LOCAL-00001" summary="added most of classes we'll need, not all helper methods filled out in encoder. Also still need to implement hash tables for holding frequency values/codes for chars">
       <created>1511239164633</created>
@@ -457,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511389759220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added huffmantree creation">
+      <created>1511392104160</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1511392104160</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12686000" />
+    <option name="totallyTimeSpent" value="21208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,11 +514,12 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -512,37 +547,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="added huffmantree creation" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
+    <entry file="file://$PROJECT_DIR$/huffmantree/Node.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="484">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding>
-            <marker date="1511238836448" expanded="false" signature="6:47" ph="..." />
-            <marker date="1511238836448" expanded="true" signature="70:193" ph="{...}" />
-            <marker date="1511238836448" expanded="true" signature="99:191" ph="{...}" />
-            <marker date="1511238836448" expanded="true" signature="152:185" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huffmantree/Test.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="86" lean-forward="false" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
-          <folding>
-            <marker date="1511238803148" expanded="true" signature="21:863" ph="{...}" />
-            <marker date="1511238803148" expanded="true" signature="45:861" ph="{...}" />
-            <marker date="1511238803148" expanded="true" signature="90:149" ph="{...}" />
-            <marker date="1511238803148" expanded="true" signature="186:242" ph="{...}" />
-            <marker date="1511238803148" expanded="true" signature="288:405" ph="{...}" />
-            <marker date="1511238803148" expanded="true" signature="451:630" ph="{...}" />
-            <marker date="1511238803148" expanded="true" signature="474:607" ph="/* tests helper method that builds dictionary of codes for encoder ... */" />
-            <marker date="1511238803148" expanded="true" signature="665:772" ph="{...}" />
-            <marker date="1511238803148" expanded="true" signature="807:855" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="36:1600" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="75:1598" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="404:583" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="632:833" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="912:1126" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="1168:1592" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="1318:1372" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="1412:1465" ph="{...}" />
+            <marker date="1511392101036" expanded="true" signature="1504:1557" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -584,52 +608,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huffmantree/Node.cs">
+    <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="125" column="13" lean-forward="false" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
           <folding>
-            <marker date="1511392101036" expanded="true" signature="36:1600" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="75:1598" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="404:583" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="632:833" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="912:1126" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="1168:1592" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="1318:1372" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="1412:1465" ph="{...}" />
-            <marker date="1511392101036" expanded="true" signature="1504:1557" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="21:6320" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="34:79" ph="..." />
+            <marker date="1511473410018" expanded="true" signature="104:6318" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="564:1314" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="587:775" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
+            <marker date="1511473410018" expanded="true" signature="817:1304" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="985:1120" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="1165:1290" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="1358:2512" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="1521:1703" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="1789:2391" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="2553:3304" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="2616:2827" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="2856:2988" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="3018:3151" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="3164:3220" ph="/* base case, leaf node ... */" />
+            <marker date="1511473410018" expanded="true" signature="3338:3854" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="3361:3456" ph="/* default ctor for encoder ... */" />
+            <marker date="1511473410018" expanded="true" signature="3993:4609" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="4041:4096" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="4249:4439" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="4641:5915" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="4901:5826" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="5008:5433" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="5080:5316" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="5468:5812" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="5526:5693" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="5944:6311" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="5967:6050" ph="/* prints encoded text ... */" />
+            <marker date="1511473410018" expanded="true" signature="6085:6206" ph="{...}" />
+            <marker date="1511473410018" expanded="true" signature="6223:6301" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huffmantree/Encoder.cs">
+    <entry file="file://$PROJECT_DIR$/huffmantree/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="375">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
-            <marker date="1511392101140" expanded="true" signature="21:4631" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="86:4629" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="518:1280" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="541:741" ph="/* finds frequencies of characters and stores them in frequencies dictionary ... */" />
-            <marker date="1511392101140" expanded="true" signature="783:1270" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="951:1086" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="1131:1256" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="1324:2504" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="1487:1670" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="1768:2370" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="2553:3315" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="2616:2827" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="2856:2988" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="3018:3101" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="3118:3305" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="3149:3209" ph="/* base case, leaf node ... */" />
-            <marker date="1511392101140" expanded="true" signature="3341:3820" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="3364:3513" ph="/* default ctor for encoder ... */" />
-            <marker date="1511392101140" expanded="true" signature="3967:4330" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="4132:4186" ph="/* this.Plaintext; ... */" />
-            <marker date="1511392101140" expanded="true" signature="4371:4465" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="4494:4622" ph="{...}" />
-            <marker date="1511392101140" expanded="true" signature="4517:4612" ph="/* prints encoded text ... */" />
+            <marker date="1511472853226" expanded="true" signature="45:663" ph="{...}" />
+            <marker date="1511472853226" expanded="true" signature="87:661" ph="{...}" />
+            <marker date="1511472853226" expanded="true" signature="141:371" ph="{...}" />
+            <marker date="1511472853226" expanded="true" signature="420:655" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffmantree/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <marker date="1511473515146" expanded="false" signature="6:47" ph="..." />
+            <marker date="1511473515146" expanded="true" signature="70:453" ph="{...}" />
+            <marker date="1511473515146" expanded="true" signature="99:451" ph="{...}" />
+            <marker date="1511473515146" expanded="true" signature="152:445" ph="{...}" />
           </folding>
         </state>
       </provider>
