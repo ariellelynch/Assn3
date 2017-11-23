@@ -93,17 +93,17 @@
             return 0;
         }
 
-        public Encoder()
+        public Encoder(string s)
         {
             //default ctor for encoder
             //takes input from console to initialize plaintext attr.
 
-            //TODO: initialize plaintext
-
+            Plaintext = s;
             EncodedText = "";
             DecodedText = "";
             frequencies = new Dictionary<char, int>();
             codesForChars = new Dictionary<char, string>();
+            FrequencyQueue = new PriorityQueue<Node>(53);
 
             //don't need to initialize huffman tree because will just contain ref to node initialized later in encode method
 
@@ -111,7 +111,7 @@
 
         //need to write in helper method for traversing tree recursively and creating dictionary of codes
 
-        public string Encode(Node tree)
+        public string Encode()
         {
             FindFrequencies();
             GenerateHuffmanTree();
@@ -128,31 +128,39 @@
             //uses plaintext attr and returns encoded text
         }
 
-        public string Decode(Node tree)
+        public string Decode()
         {
             //decodes the encoded text in the encoder, mostly for testing
 
-            Node NodeCurrent = tree;
+            Node NodeCurrent = HuffmanTree;
             // store the current node as we go through the tree to find the value
-
             foreach (char c in this.EncodedText)
             {
-                while ((NodeCurrent.LeftNode != null) && (NodeCurrent.RightNode != null))
                 // loop until we hit a null node on both sides
+                if (c == '0')
                 {
-                    if (c == '0')
+                    if (NodeCurrent.LeftNode == null)
                     {
-                        NodeCurrent = NodeCurrent.LeftNode;
-                        // go left if it's a 0
-                    }
-                    if (c == '1')
-                    {
-                        NodeCurrent = NodeCurrent.RightNode;
-                        // go right if it's a 1
-                    }
+                        this.DecodedText += NodeCurrent.Letter;
+                        // append the char we found
+                        NodeCurrent = HuffmanTree;
+						// go back to the top of the tree
+					}
+                    NodeCurrent = NodeCurrent.LeftNode;
+                    // go left if it's a 0
                 }
-                this.DecodedText += NodeCurrent.Letter;
-                // append to the DecodedText
+                else if (c == '1')
+                {
+					if (NodeCurrent.RightNode == null)
+					{
+						this.DecodedText += NodeCurrent.Letter;
+						// append the char we found
+						NodeCurrent = HuffmanTree;
+						// go back to the top of the tree
+					}
+                    NodeCurrent = NodeCurrent.RightNode;
+                    // go right if it's a 1
+                }
             }
             return this.DecodedText;
         }
