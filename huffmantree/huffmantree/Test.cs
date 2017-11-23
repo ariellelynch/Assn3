@@ -1,37 +1,29 @@
-﻿namespace huffmantree
+﻿using NUnit.Framework;
+
+namespace huffmantree
 {
+    [TestFixture]
     public class Test
     {
-        public bool TestEncoderCtors()
+        [Test]
+        public void TestEncode()
         {
-            //tester for encoder ctors
+            Encoder enc = new Encoder("hello world");
+            string result = enc.Encode();
+            string expected = "00000110101100100111101110101111";
+
+            Assert.AreEqual(expected, result);
         }
 
-        public bool TestNodeCtors()
+        [Test]
+        public void TestDecode()
         {
-            //tester for node ctors
-        }
+            Encoder enc = new Encoder("hello world");
+            enc.Encode();
+            string result = enc.Decode();
+            string expected = "hello world";
 
-        public bool TestHuffmanTreeBuilder()
-        {
-            //tests helper method for encode method that builds huffmantree using priority queue
-        }
-
-        public bool TestEncoderDictBuilder()
-        {
-            //tests helper method that builds dictionary of codes for encoder
-            //TODO: determine whether to test decoder dict here too
-            
-        }
-
-        public bool TestDecoder()
-        {
-            //test using manually generated code/dict/tree since using to test encoder
-        }
-
-        public bool TestEncoder()
-        {
-            //tests encoder
+            Assert.AreEqual(expected, result);
         }
     }
 }
